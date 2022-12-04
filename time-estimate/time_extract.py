@@ -1,18 +1,19 @@
 import re as re
-from text import text
 
 
 class Extraction:
 
     def __init__(self):
-        self.input = text
+        # self.input = text
         self.times = []
         self.total = 0
+        with open("text.txt") as file:
+            self.text = file.read()
 
     def extract_times(self):
         # \\d pulls out digits in the text self.input, the + is meant to specify more than one digit if any exist, 
         # repeat this for the other side of the colon in timestamps
-        self.times = re.findall('\\d+:\\d+', self.input)
+        self.times = re.findall('\\d+:\\d+', self.text)
 
     def separate_mins_from_seconds(self):
         for item in self.times:
