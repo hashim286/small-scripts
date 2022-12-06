@@ -4,7 +4,6 @@ import re as re
 class Extraction:
 
     def __init__(self):
-        # self.input = text
         self.times = []
         self.total = 0
         with open("text.txt") as file:
