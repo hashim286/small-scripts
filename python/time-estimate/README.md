@@ -1,4 +1,4 @@
-this was written for professor messer's network+ and security+ course
+this was written for professor messer's courses to give a time estimate for a selection of videos
 
 https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/sy0-601-comptia-security-plus-course/
 
