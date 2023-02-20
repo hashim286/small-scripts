@@ -1,13 +1,40 @@
 paste video titles here, example below
 -----------------------------------------
-Rogue Access Points and Evil Twins (3:43)
-Bluejacking and Bluesnarfing (2:09)
-Wireless Disassociation Attacks (5:50)
-Wireless Jamming (3:15)
-RFID and NFC Attacks (4:00)
-Randomizing Cryptography (4:18)
-On-Path Attacks (6:04)
-MAC Flooding and Cloning (7:53)
-DNS Attacks (8:19)
-Denial of Service (8:35)
-Malicious Scripts (4:47)
+dfdasfdasf
+
+ [ASSOCIATESHARED] AWS Public vs Private Services (7:04)
+ 
+ [ASSOCIATESHARED] AWS Global Infrastructure (14:53)
+ 
+ [ASSOCIATESHARED] AWS Default Virtual Private Cloud (VPC) (15:19)
+ 
+ [ASSOCIATESHARED] Elastic Compute Cloud (EC2) Basics (14:46)
+ 
+ [ASSOCIATESHARED] [DEMO] My First EC2 Instance - PART1 (11:05)
+ 
+ [ASSOCIATESHARED] [DEMO] My First EC2 Instance - PART2 (9:52)
+ 
+ [ASSOCIATESHARED]Simple Storage Service (S3) Basics (15:48)
+ 
+ [ASSOCIATESHARED] [DEMO] My First S3 Bucket (18:34)
+ 
+ [ASSOCIATESHARED] CloudFormation (CFN) Basics (12:28)
+ 
+ [ASSOCIATESHARED] [DEMO] Simple Automation With CFN (16:52)
+ 
+ [ASSOCIATESHARED] CloudWatch (CW) Basics (13:45)
+ 
+ [ASSOCIATESHARED] [Demo] Simple Monitoring with Cloudwatch (16:10)
+ 
+ [ASSOCIATESHARED] Shared Responsibility Model (6:20)
+ 
+ [ASSOCIATESHARED] High-Availability vs Fault-Tolerance vs Disaster Recovery (17:21)
+ 
+ [ASSOCIATESHARED] Route53 (R53) Fundamentals (6:29)
+ 
+ [ASSOCIATESHARED] [DEMO] Registering a Domain (8:50)
+ 
+ [ASSOCIATESHARED] DNS Record Types (13:25)
+ 
+ Fundamentals Section Quiz
+IAM, ACCOUNTS
