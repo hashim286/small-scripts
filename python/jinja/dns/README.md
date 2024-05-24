@@ -2,4 +2,4 @@ The point of this script is to take some output from ibadmin CLI that shows reco
 
 	  A test.example.com 127.0.0.1
 
-This output should be added into "input.txt" and then the script should be run which will generate a YAML file from the output from ibadmin and use that YAML for the jinja template to output to delete the records as well as a backout in case you need to undo the change
+This output should be added into "input.txt" and then the script should be run which will generate a YAML file from the output taken from ibadmin and use that YAML for the jinja template to output commands to delete the records as well as a backout in case you need to undo the change
