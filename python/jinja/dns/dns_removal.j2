@@ -1,0 +1,40 @@
+{#  TEMPLATE
+    
+records:
+- hostname: 
+  domain: 
+  ip:
+  record_type
+- hostname: 
+  domain: 
+  ip:
+  record_type
+    
+
+    
+    #}
+========= CHANGE ========
+
+{% for record in records %}
+{%- if record.record_type == 'a' %}
+dns a delete {{ record.fqdn }} {{ record.ip }}
+{%- elif record.record_type == 'host' %}
+dns {{ record.record_type }} delete {{ record.fqdn }}
+{%- elif record.record_type == 'ptr' %}
+dns {{ record.record_type }} delete {{ record.ip }} {{ record.fqdn }}
+{%- endif %}
+{% endfor %}
+
+======== CONFIRMATIONS ========
+
+{%- for record in records %}
+dns search {{ record.fqdn }}
+{%- endfor %}
+
+======== BACKOUT ========
+
+{% for record in records %}
+dns {{ record.record_type }} add {{ record.fqdn }} {{ record.ip }}
+{% endfor %}
+
+
